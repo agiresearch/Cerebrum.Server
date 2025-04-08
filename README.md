@@ -21,8 +21,8 @@ Registry Node service uses Distributed Hash Tables (DHT) and Gossip protocols to
 
 ## 📰 Version Notes
 
-- **[2024-04-06]** 🔥 AIOS Registry Node distributed node service is now available!
-- **[2024-04-05]** Added DHT and Gossip protocol support for decentralized agent discovery
+- **[2024-05-06]** 🔥 AIOS Registry Node distributed node service is now available!
+- **[2024-05-05]** Added DHT and Gossip protocol support for decentralized agent discovery
 
 ## 📋 Installation
 
@@ -70,13 +70,15 @@ Before running a Registry Node, you need to start the AIOS Kernel:
 
 2. Follow the installation instructions in the [AIOS Server README](https://github.com/agiresearch/AIOS.Server)
 
-3. Start the AIOS Kernel:
+3. Configure API Keys:
+
+Ensure you have configured the necessary API keys for the LLM models you want to use.
+
+4. Start the AIOS Kernel:
 
    The kernel should be running at `http://localhost:8000`
 
-4. Configure API Keys:
 
-Ensure you have configured the necessary API keys for the LLM models you want to use.
 
 
 ### Step 2: Start the Registry Node
