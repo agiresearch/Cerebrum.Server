@@ -89,7 +89,7 @@ Once the AIOS Kernel is running and your API keys are configured, you can start 
 Use the built-in command line tool to quickly start a node:
 
 ```bash
-run-registry-node --registry_url https://app-test.aios.foundation --node_name my-node --agents example/demo_agent,example/academic_agent --default_llm gpt-4o-mini
+run-registry-node --registry_url https://app-test.aios.foundation --node_name my-node --agents example/math_agent,example/academic_agent --default_llm gpt-4o-mini
 ```
 
 Parameter description:
@@ -103,7 +103,7 @@ Parameter description:
 Alternatively, you can directly run the registry node example script:
 
 ```bash
-python cerebrum/cerebrum/example/run_registry_node.py --registry_url https://app-test.aios.foundation --node_name my-node --agents example/demo_agent,example/academic_agent --default_llm gpt-4o-mini
+python cerebrum/cerebrum/example/run_registry_node.py --registry_url https://app-test.aios.foundation --node_name my-node --agents example/math_agent,example/academic_agent --default_llm gpt-4o-mini
 ```
 
 #### Using Python Code
@@ -123,7 +123,7 @@ client = RegistryNodeClient(
 
 # Set available agents list
 client.set_available_agents([
-    "example/demo_agent",
+    "example/math_agent",
     "example/academic_agent"
 ])
 
