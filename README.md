@@ -1,4 +1,4 @@
-# Cerebrum: AIOS Distributed Node Registry Service
+# Planet as a Brain: DAIOS – Towards Decentralized Agent Systems based on AIOS Server
 
 <a href='https://docs.aios.foundation/'><img src='https://img.shields.io/badge/Documentation-Cerebrum-green'></a>
 [![Code License](https://img.shields.io/badge/Code%20License-MIT-orange.svg)](https://github.com/agiresearch/AIOS/blob/main/LICENSE)
