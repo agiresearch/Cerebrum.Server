@@ -21,8 +21,8 @@ Registry Node service uses Distributed Hash Tables (DHT) and Gossip protocols to
 
 ## 📰 Version Notes
 
-- **[2024-05-06]** 🔥 AIOS Registry Node distributed node service is now available!
-- **[2024-05-05]** Added DHT and Gossip protocol support for decentralized agent discovery
+- **[2025-04-22]** 🔥 AIOS Registry Node distributed node service is now available!
+- **[2025-04-22]** Added DHT and Gossip protocol support for decentralized agent discovery
 
 ## 📋 Installation
 
